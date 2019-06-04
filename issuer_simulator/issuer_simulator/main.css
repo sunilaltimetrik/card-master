@@ -1,0 +1,468 @@
+html, body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F1F5F7;
+    /*padding: 0px 15px 0px 0px;
+    margin: 0px;*/
+}
+.bg-blue, .tab-bg-blue{
+    background-color: #051C36;
+}
+.text-color1{
+    color: #6A7C92;
+}
+.text-color2{
+    color: #CBDCF1;
+}
+.f-12{
+    font-size: 12px;
+}
+.f-13{
+    font-size: 13px;
+}
+.f-14{
+    font-size: 14px;
+}
+.f-16{
+    font-size: 16px;
+}
+.padd-5{
+    padding: 5px;
+}
+.padd-b10{
+    padding-bottom: 10px;
+}
+.padd-b25{
+    padding-bottom: 25px;
+}
+.padd-t10{
+    padding-top: 10px;
+}
+.padd-t15{
+    padding-top: 15px;
+}
+.padd-t25{
+    padding-top: 25px;
+}
+.padd-t40{
+    padding-top: 45px;
+}
+.padd-t20p{
+    padding-top: 20%;
+}
+.padd-t10p{
+    padding-top: 10%;
+}
+.padd-t25{
+    padding-top: 25px;
+}
+.padd-l15{
+    padding-left: 15px; 
+}
+.padd-l7{
+    padding-left: 7px;
+}
+.padd-l30{
+    padding-left: 30px;
+}
+.padd-b30{
+    padding-bottom: 30px;
+}
+.padd-b40{
+    padding-bottom: 40px;
+}
+.padd20p{
+    padding: 20%;
+}
+.no-padd-l{
+    padding-left: 0px;
+}
+.text-center{
+    text-align: center;    
+    text-align: -webkit-center;
+}
+.text-white{
+    color: #fff;
+}
+.is-normal-text{
+    color: #050505;	
+    font-family: "Open Sans";	
+    font-size: 16px;	
+    line-height: 22px;
+}
+.res-padd-l30{
+        padding-left: 30px;
+}
+.new-logo-padd{
+    padding:  25px 5%;
+}
+.d-padd-l15{
+    padding-left: 15px;
+}
+.container1{
+    max-width: 400px;
+}
+.container2{
+    max-width: 488px;
+}
+.text-align{
+    text-align: right;
+}
+.m-blue{
+    background-color: #051C36;
+}
+.back-arrow-padd{
+    padding: 0px 5px 3px 0px;
+}
+.welcome-text{
+    color: #65788F;
+    font-size: 16px;
+    font-weight: 400;
+}
+.profile-text{
+    color: #FFFFFF;	
+    font-family: "Open Sans";	
+    font-size: 14px;	
+    line-height: 19px;
+}
+.update-btn{
+    width:  175px;
+    height: 48px;
+    background-color: #64BCB9;
+    color: #fff;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 19px;
+}
+.card{	
+    height: 204px;
+    width: 317px;	
+    border-radius: 4px;	
+    background-color: #051C36;
+    box-shadow: 0 4px 4px 0 rgba(90,112,132,0.08);
+}
+.card-padd{
+    padding: 15px 25px 15px 25px;
+}
+.card-text1{
+    color: #FFFFFF;	
+    font-family: "Saira";	
+    font-size: 16px;	
+    line-height: 25px;
+}
+.card-text2{
+    color: #E4EDED;	
+    font-family: Saira;	
+    font-size: 14px;	
+    line-height: 22px;
+}
+.card-number{
+    color: #FFFFFF;	
+    font-family: "Saira";
+    font-size: 18px;	
+    letter-spacing: 3.5px;	
+    line-height: 28px;
+}
+.card-date{
+    color: #FFFFFF;	
+    font-family: "Saira";	
+    font-size: 14px;	
+    letter-spacing: 1.57px;	
+    line-height: 22px;
+}
+.card-n-padd{
+    padding-top: 25%;
+}
+.card-d-padd{
+    padding-top: 4%;
+}
+.card-icon-m{
+    margin: -10px -15px;
+}
+.dot {
+  height: 51px;
+  width: 51px;
+  border: 1px solid #979797;	
+  background-color: #D8D8D8;
+  border-radius: 50%;
+  display: inline-block;
+}
+/*Login Page and Forgot Pages CSS ***************Start****************
+*/
+.login-btn{
+    width: 100%;
+    height: 48px;
+    background-color: #64Bcb9;
+    color: #fff;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 19px;
+}
+.signup-text{
+    color: #64BCB9;
+}
+/*Form control custom class for login page Start Same will use for Other components*/
+.form-control.is-input {
+    display: block;
+    width: 100%;
+    height: 48px;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #384545;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #EDF1F4;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.form-control.is-input:focus {
+    border-color: #9BABAB;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px transparent, 0 0 8px transparent;
+    box-shadow: inset 0 1px 1px transparent, 0 0 8px transparent;
+}
+.login-input-text{
+    height: 25px;	
+    font-family: 'Saira', sans-serif;
+    font-size: 16px;	
+    line-height: 25px;
+    padding: 10px 16px;
+}
+/*Form control custom class for login page End*/
+.login-alert-text{
+    color: #051C36;	
+    /*font-family: Roboto;	*/
+    font-size: 13px;	
+    line-height: 26px;
+    border: 1px solid #051C36;
+}
+.login-footer{
+    position: absolute;
+    bottom: 15px;
+    color: white;
+    width: 90%;
+    padding-left: 15px;
+    color: #CBDCF1;
+}
+.logo-text{
+    color: #FFFFFF;	
+    font-family: "Open Sans";	
+    font-size: 14px;	
+    font-weight: 600;
+
+}
+/*forgot password*/
+.back-to-login{
+    color: #051C36;	
+    font-family: "Open Sans";	
+    font-size: 16px;	
+    line-height: 22px;
+}
+
+.forgot-text{
+    color: #051C36;	
+    font-family: "Open Sans";	
+    font-size: 20px;	
+    font-weight: bold;	
+    line-height: 27px;
+}
+.submit-btn{
+    width:  145px;
+    height: 48px;
+    background-color: #64BCB9;
+    color: #fff;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 19px;
+}
+/*Login Page and Forgot Pages CSS ***************End****************
+*/
+
+/*Registration Page CSS ***************Start****************
+*/
+.reg-title{
+    	color: #051C36;	
+        font-family: "Open Sans";	
+        font-size: 20px;	
+        font-weight: bold;	
+        line-height: 27px;
+}
+.security-q{
+    color: #384545;	
+    font-family: "Open Sans";	
+    font-size: 16px;	
+    font-weight: 600;	
+    line-height: 22px;
+}
+.reg-btn{
+    width: 146px;
+    height: 48px;
+    background-color: #64Bcb9;
+    color: #fff;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 19px;
+}
+.form-control.is-input-reg {
+    display: block;
+    width: 100%;
+    height: 48px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.42857143;
+   	color: rgba(56,69,69,0.52);
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #EDF1F4;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+/*Registration Page CSS ***************End****************
+*/
+/*Profile Page CSS ***************Start****************
+*/
+
+/*Profile Page CSS ***************End****************
+*/
+.porfile-card{
+    height: 161px;	
+    width: 274.5px;	
+    border-radius: 4px;	
+    background-color: #FFFFFF;	
+    box-shadow: 0 4px 4px 0 rgba(90,112,132,0.08);
+    font-weight: 600px;
+    color: #051C36;
+}
+.profile-card-padd{
+    padding: 32px 15px 15px 35px;
+}
+/*CSS for Responsive layout*/
+@media (min-width: 320px) and (max-width: 480px) {
+    .porfile-card {
+        height: 161px;
+        width: 225px;
+    }
+    .bg-blue{
+        background-color: #051C36;
+        height: 125px;
+    }
+    .tab-bg-blue{
+        background-color: #051C36;
+        height: 295px;
+    }
+    .login-footer{
+        display: none;
+    }
+    .login-footer-mobile{
+        background-color: #051C36;
+        height: 65px;
+    }
+    .new-logo-padd-moblie{
+        padding: 5px;
+    }
+    .new-logo-padd{
+        display: none;
+    }
+    .text-align{
+    text-align: left;
+    }
+    .side-bar-width{
+        width: 100%;
+    }
+    .profile-text{
+        padding: 10px 0px 0px 0px;
+    }
+    .res-padd-l30{
+        padding-left: 0px;
+    }
+}
+  
+@media (min-width: 481px) and (max-width: 768px) {
+    .porfile-card {
+        height: 161px;
+        width: 225px;
+    }
+    .bg-blue{
+        background-color: #051C36;
+        height: 1040px;
+    }   
+    .tab-bg-blue{
+        background-color: #051C36;
+        height: 1040px;
+    } 
+    .new-logo-padd-moblie{
+        display: none;
+    } 
+   .login-footer-mobile{
+     display: none;
+    }
+    .profile-text{
+        padding: 10px 0px 0px 0px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1800px) {
+  
+  .bg-blue{
+        background-color: #051C36;
+        height: 1040px;
+    }
+    .tab-bg-blue{
+        background-color: #051C36;
+        height: 1040px;
+    }
+    .new-logo-padd-moblie{
+         display: none;
+    }
+    .login-footer-mobile{
+     display: none;
+    }
+    .side-bar-width{
+        width: 255px;
+    }  
+    .profile-text{
+        padding: 10px 0px 50px 0px;
+    }
+}
+.custom-container {
+    padding-right: 15px;
+    padding-left: 15px; 
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 1024px) and (max-width: 1800px) {
+    .custom-container {
+        width: 100%;
+        max-width: 1400px;
+        padding-left: 0px; 
+    }
+}
+@media (min-width: 992px) and (max-width: 1023px){
+    .custom-container {
+        width: 970px;
+}   
+}
+
+
+@media (min-width: 768px) and (max-width: 990px){
+    .custom-container {
+        width: 750px;
+    }
+}
